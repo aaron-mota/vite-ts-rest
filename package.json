@@ -18,14 +18,17 @@
     "@tanstack/react-query": "^4.36.1",
     "@tanstack/react-query-devtools": "^4.36.1",
     "@ts-rest/core": "^3.30.4",
+    "@ts-rest/open-api": "^3.30.4",
     "@ts-rest/react-query": "^3.30.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "swagger-ui-react": "^5.9.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/swagger-ui-react": "^4.18.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
