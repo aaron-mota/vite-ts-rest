@@ -10,9 +10,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 import { ViteStarterIcons } from './components/vite/ViteStarterIcons';
-import { Swagger } from './components/pokemon/api/Swagger';
 import { Box } from '@mui/material';
-// import { PokemonList } from './components/pokemon/PokemonList';
+import { PokemonList } from './components/pokemon/PokemonList';
 
 // Create a client
 const queryClient = new QueryClient();
@@ -25,8 +24,10 @@ function App() {
 
         <ViteStarterIcons />
 
-        {/* <PokemonList /> */}
-        <Swagger />
+        {/* <Swagger /> */}
+
+        <PokemonList />
+        {/* <List /> */}
 
       </Box>
       <ReactQueryDevtools initialIsOpen={false} />
