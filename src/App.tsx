@@ -10,7 +10,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 import { ViteStarterIcons } from './components/vite/ViteStarterIcons';
-import { Swagger } from './components/pokemon/Swagger';
+import { Swagger } from './components/pokemon/api/Swagger';
 import { Box } from '@mui/material';
 // import { PokemonList } from './components/pokemon/PokemonList';
 

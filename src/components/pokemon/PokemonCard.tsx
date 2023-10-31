@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { client } from "../../api/client";
+import { client } from "./api/client";
 
 interface Props {
   name: string;
