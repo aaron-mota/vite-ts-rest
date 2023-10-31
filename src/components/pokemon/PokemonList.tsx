@@ -1,5 +1,5 @@
 import { Stack } from '@mui/material';
-import { client } from '../api/client';
+import { client } from '../../api/client';
 import { PokemonCard } from './PokemonCard';
 
 
